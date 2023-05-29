@@ -1,0 +1,24 @@
+- id: no-util
+  name: No utility module names
+  description: "Checks for `util` in file names"
+  entry: pre_commit_hooks/no-util.sh
+  args: []
+  language: script
+  types: [shell]
+
+- id: no-common
+  name: No common module names
+  description: "Checks for `common` in file names"
+  entry: pre_commit_hooks/no-common.sh
+  args: []
+  language: script
+  types: [shell]
+
+- id: no-helper
+  name: No helper module names
+  description: "Checks for `helper` in file names"
+  entry: pre_commit_hooks/no-helper.sh
+  args: []
+  language: script
+  types: [shell]
+    
