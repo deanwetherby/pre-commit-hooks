@@ -4,7 +4,7 @@
   entry: pre_commit_hooks/no-util.sh
   args: []
   language: script
-  types: [shell]
+  types: [file, directory]
 
 - id: no-common
   name: No common module names
@@ -12,7 +12,7 @@
   entry: pre_commit_hooks/no-common.sh
   args: []
   language: script
-  types: [shell]
+  types: [file, directory]
 
 - id: no-helper
   name: No helper module names
@@ -20,5 +20,5 @@
   entry: pre_commit_hooks/no-helper.sh
   args: []
   language: script
-  types: [shell]
+  types: [file, directory]
     
