@@ -14,11 +14,3 @@ Add `.pre-commit-config.yaml` to your git repository.
     -id: no-helper
     -id: no-common
 ```
-
-## Hooks
-
-### no-common
-
-### no-util
-
-### no-helper
